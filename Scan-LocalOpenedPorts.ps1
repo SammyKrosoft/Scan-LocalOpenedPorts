@@ -1,12 +1,18 @@
 ﻿<#
 .SYNOPSIS
-    Quick description of this script
+    This script will scan all ports (default 1 to 1024, u can go up to 65535) on the local machine
+    and show which ones are opened and which are closed. Results will be stored in a file in the
+    user's document folder.
 
 .DESCRIPTION
-    Longer description of what this script does
+    Nothing more to say than what's in the Synopsis for now...
 
-.PARAMETER FirstNumber
-    This parameter does blablabla
+.PARAMETER StartPort
+    Which port we start to scan
+
+.PARAMETER EndPort
+    Until which port we scan
+
 
 .PARAMETER CheckVersion
     This parameter will just dump the script current version.
@@ -15,11 +21,15 @@
     None. You cannot pipe objects to that script.
 
 .OUTPUTS
-    None for now
+    a CSV file containing the ports number and the status of each port
 
 .EXAMPLE
-.\Do-Something.ps1
-This will launch the script and do someting
+.\Scan-LocalOpenedPorts.ps1
+This will scan ports 1 to 1024 and get the status of each port (closde or opened)
+
+.EXAMPLE
+.\Scan-LocalOpenedPorts.ps1 -StartPort 10 -EndPort 250
+This will scan ports from 10 to 250 and get the status of each port (closed or opened)
 
 .EXAMPLE
 .\Do-Something.ps1 -CheckVersion
