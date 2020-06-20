@@ -92,13 +92,13 @@ $StartPort..$EndPort | ForEach-Object {
     if($Test.Connected){
     $ObjColl += New-Object PSObject -property @{
         Port = $_
-        Status = "Connected"
+        Status = "Opened"
     }
        # write-host "$_ opened"
     } else {
     $ObjColl += New-Object PSObject -property @{
             Port = $_
-            Status = "closed"
+            Status = "Closed"
       }
        # write-host "$_ closed"
     }
