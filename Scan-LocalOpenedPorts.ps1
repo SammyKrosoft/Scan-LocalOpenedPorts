@@ -104,7 +104,7 @@ $StartPort..$EndPort | ForEach-Object {
     }
 } | Out-Null
 
-$ObjColl | Export-CSV $OutputReport -NoTypeInformation
+$ObjColl | Select Port,Status | Export-CSV $OutputReport -NoTypeInformation
 Notepad $OutputReport
 <# /EXECUTIONS #>
 <# -------------------------- CLEANUP VARIABLES -------------------------- #>
