@@ -83,7 +83,7 @@ NOTES
     
     -------------------------- EXAMPLE 1 --------------------------
     
-    PS C:\>..ps1
+    PS C:\>.\Scan-LocalOpenPorts.ps1
     
     This will scan ports 1 to 1024 and get the status of each port (closde or opened)
     
@@ -92,7 +92,7 @@ NOTES
     
     -------------------------- EXAMPLE 2 --------------------------
     
-    PS C:\>..ps1 -StartPort 10 -EndPort 250
+    PS C:\>.\Scan-LocalOpenPorts.ps1 -StartPort 10 -EndPort 250
     
     This will scan ports from 10 to 250 and get the status of each port (closed or opened)
     
@@ -101,7 +101,7 @@ NOTES
     
     -------------------------- EXAMPLE 3 --------------------------
     
-    PS C:\>.\Do-Something.ps1 -CheckVersion
+    PS C:\>.\Scan-LocalOpenPorts.ps1 -CheckVersion
     
     This will dump the script name and current version like :
     SCRIPT NAME : Do-Something.ps1
@@ -115,6 +115,3 @@ RELATED LINKS
 
     https://www.blackhillsinfosec.com/poking-holes-in-the-firewall-egress-testing-with-allports-exposed/
     https://www.sans.org/blog/pen-test-poster-white-board-powershell-built-in-port-scanner/
-
-
-
