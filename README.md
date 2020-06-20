@@ -9,8 +9,7 @@ Use -StartPort and -EndPort to define which ports to scan. Maximum is 65535 and 
 
 NAME
 
-    C:\Users\Yelosubmarine\OneDrive\_Boulot\Documents\GitHub 
-    Repositories\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1
+    .\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1
     
 SYNOPSIS
 
@@ -21,12 +20,10 @@ SYNOPSIS
     
 SYNTAX
 
-    C:\Users\Yelosubmarine\OneDrive\_Boulot\Documents\GitHub 
-    Repositories\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1 [[-StartPort] <Int32>] [[-EndPort] <Int32>] 
+    .\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1 [[-StartPort] <Int32>] [[-EndPort] <Int32>] 
     [<CommonParameters>]
     
-    C:\Users\Yelosubmarine\OneDrive\_Boulot\Documents\GitHub 
-    Repositories\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1 [[-CheckVersion]] [<CommonParameters>]
+    .\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1 [[-CheckVersion]] [<CommonParameters>]
     
     
 DESCRIPTION
