@@ -9,7 +9,7 @@ Use -StartPort and -EndPort to define which ports to scan. Maximum is 65535 and 
 
 NAME
 
-    .\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1
+    .\Scan-LocalOpenedPorts.ps1
     
 SYNOPSIS
 
@@ -20,10 +20,10 @@ SYNOPSIS
     
 SYNTAX
 
-    .\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1 [[-StartPort] <Int32>] [[-EndPort] <Int32>] 
+    .\Scan-LocalOpenedPorts.ps1 [[-StartPort] <Int32>] [[-EndPort] <Int32>] 
     [<CommonParameters>]
     
-    .\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1 [[-CheckVersion]] [<CommonParameters>]
+    .\Scan-LocalOpenedPorts.ps1 [[-CheckVersion]] [<CommonParameters>]
     
     
 DESCRIPTION
@@ -83,7 +83,7 @@ NOTES
     
     -------------------------- EXAMPLE 1 --------------------------
     
-    PS C:\>.\Scan-LocalOpenedPorts.ps1
+    PS C:\>..ps1
     
     This will scan ports 1 to 1024 and get the status of each port (closde or opened)
     
@@ -92,7 +92,7 @@ NOTES
     
     -------------------------- EXAMPLE 2 --------------------------
     
-    PS C:\>.\Scan-LocalOpenedPorts.ps1 -StartPort 10 -EndPort 250
+    PS C:\>..ps1 -StartPort 10 -EndPort 250
     
     This will scan ports from 10 to 250 and get the status of each port (closed or opened)
     
