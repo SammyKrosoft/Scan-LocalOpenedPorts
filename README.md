@@ -8,16 +8,19 @@ Use -StartPort and -EndPort to define which ports to scan. Maximum is 65535 and 
 
 
 NAME
+
     C:\Users\Yelosubmarine\OneDrive\_Boulot\Documents\GitHub 
     Repositories\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1
     
 SYNOPSIS
+
     This script will scan all ports (default 1 to 1024, u can go up to 65535) on the local machine
     and show which ones are opened and which are closed. Results will be stored in a file in the
     user's document folder.
     
     
 SYNTAX
+
     C:\Users\Yelosubmarine\OneDrive\_Boulot\Documents\GitHub 
     Repositories\Scan-LocalOpenedPorts\Scan-LocalOpenedPorts.ps1 [[-StartPort] <Int32>] [[-EndPort] <Int32>] 
     [<CommonParameters>]
@@ -27,10 +30,12 @@ SYNTAX
     
     
 DESCRIPTION
+
     Nothing more to say than what's in the Synopsis for now...
     
 
 PARAMETERS
+
     -StartPort <Int32>
         Which port we start to scan
         
@@ -65,10 +70,12 @@ PARAMETERS
         about_CommonParameters (https:/go.microsoft.com/fwlink/?LinkID=113216). 
     
 INPUTS
+
     None. You cannot pipe objects to that script.
     
     
 OUTPUTS
+
     a CSV file containing the ports number and the status of each port
     
     
@@ -108,6 +115,7 @@ NOTES
     
     
 RELATED LINKS
+
     https://www.blackhillsinfosec.com/poking-holes-in-the-firewall-egress-testing-with-allports-exposed/
     https://www.sans.org/blog/pen-test-poster-white-board-powershell-built-in-port-scanner/
 
